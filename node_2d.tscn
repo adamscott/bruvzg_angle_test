@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlmma0x4u0w1p"]
+
+[ext_resource type="Script" path="res://node_2d.gd" id="1_ag7lb"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ag7lb")
+
+[node name="SpinBox" type="SpinBox" parent="."]
+offset_right = 220.0
+offset_bottom = 31.0
+min_value = 10.0
+max_value = 1e+06
+step = 10.0
+value = 10.0
